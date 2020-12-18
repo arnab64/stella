@@ -5,8 +5,12 @@ Stella is your personal AI. She knows your fashion sense, and finds you best dea
 
 
 ## Implementation (in progress)
-Estimated completion by 12/31/2020.
+Estimated completion by 01/31/2021.
 No backend is connected yet, hence Stella replies "Internal Server Error"
+### Technologies used
+- Nvidia NeMo : Overall architecture and ASR
+- pytorch, huggingface : custom fine-tuning pretraining models for Language models
+- react, redux, express : application
 
 Current snapshot:
 ![stella](./Images/stella.gif)
